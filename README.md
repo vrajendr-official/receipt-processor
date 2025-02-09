@@ -38,19 +38,17 @@ Visit the following URL in your browser:
 ReDoc Documentation:
 You can also view the API documentation in ReDoc format here:
 http://localhost:8000/redoc
-6. Running Automated Tests
-	1.	Running Tests Inside Docker Container:
-If you want to run the automated tests inside the Docker container, you can do this by running the following command:
-    ```bash
+6. Running Automated Tests Inside Docker Container:
+```bash
    docker run --rm receipt-processor pytest test/
    ```
    
-2.	Running Tests Locally (Optional):
+7. Running Tests Locally (Optional):
 If you have pytest installed locally, you can run the tests directly from your local machine using:
 ```bash
        pytest test/
 ```
-7. Stopping the container
+8. Stopping the container
 
 ```bash 
 docker stop receipt-processor
